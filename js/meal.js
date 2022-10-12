@@ -30,7 +30,7 @@ const searchFood = () =>{
     const searchField = document.getElementById('search-input-field');
     const searchText = searchField.value;
     loadMeals(searchText);
-    searchText.value = '';
+    searchField.value = '';
 }
 
 // loadMeals();
